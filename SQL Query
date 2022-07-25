@@ -51,3 +51,10 @@ LEFT JOIN BIT_DB.customers customer
 ON February.orderID = customer.order_id
 WHERE February.quantity > 2;
 -- ANS: 890 customers spending an average amount of $4.17 (round up to 2 decimal places)
+
+-- 8. List all the products sold in Los Angeles in February, and include how many of each were sold.
+SELECT Product, SUM(Quantity)
+FROM BIT_DB.FebSales
+WHERE location like '%Los Angeles%'
+GROUP BY Product;
+
