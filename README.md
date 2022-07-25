@@ -9,3 +9,4 @@
 5. What is the total revenue for each product sold in January? (Revenue can be calculated using the number of products sold and the price of the products).
 6. Which products were sold in February at 548 Lincoln St, Seattle, WA 98101, how many of each were sold, and what was the total revenue?
 7. How many customers ordered more than 2 products at a time in February, and what was the average amount spent for those customers?
+8. List all the products sold in Los Angeles in February, and include how many of each were sold.
